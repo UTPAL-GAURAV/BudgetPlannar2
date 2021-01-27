@@ -1,0 +1,13 @@
+h1
+{
+    text-align: center;
+}
+
+#idLoginForm
+{
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: gray;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="index.ts"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body onload="showTemplate(0)">
+        <div id="idHeader">
+            <label id="idLblTitle">Budget Plannar</label>
+            <label id="idLblLogout">Logout</label>
+        </div>
+        
+        <div id="idTopSummary">
+            <label>Total: </label>
+            <label style="color: rgb(233, 59, 59);">Expense: </label>
+            <label style="color: rgb(7, 167, 74);">Remaining: </label>
+        </div>
+
+        <table border="1" id="idTableNavbar">
+            <tr>
+                <td onclick="showTemplate(1)"> Budget</td>
+                <td onclick="showTemplate(2)"> Add-Income</td>
+                <td onclick="showTemplate(3)"> Transfer</td>
+                <td onclick="showTemplate(4)"> Settings</td>
+            </tr>
+        </table>
+
+        <iframe id="idIframeBudget" src="apps/budget/budget.html"></iframe>
+        <iframe id="idIframeAddIncome" src="apps/add-income/add-income.html"></iframe>
+        <iframe id="idIframeTransfer" src="apps/transfer/transfer.html"></iframe>
+        <iframe id="idIframeSettings" src="apps/settings/settings.html"></iframe>
+    </body>
+</html>

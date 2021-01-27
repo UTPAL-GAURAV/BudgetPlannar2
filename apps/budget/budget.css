@@ -1,0 +1,66 @@
+#idFullComponent
+{
+    margin-top: 5px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 900px;
+}
+
+#idEach
+{
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 5%;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: grey;
+    overflow: hidden;
+}
+
+#idImg
+{
+    flex-direction : left;
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#idProgressBar
+{
+    margin-left: 3%;
+    background-color: green; 
+    width: 85%;
+}
+
+label
+{
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+#idLblRightUp
+{
+    margin-left: 70%;
+}
+
+#idLblLeftUp
+{
+    margin-left: 3%;
+    font-weight: bold;
+}
+
+#idLblLeftDown
+{
+    margin-left: 3%;
+    color: rgb(233, 12, 12);
+}
+
+#idLblRightDown
+{
+    margin-left: 56%;
+    color: rgb(8, 189, 8);
+}
