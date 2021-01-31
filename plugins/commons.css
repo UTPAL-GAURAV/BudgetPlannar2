@@ -1,0 +1,107 @@
+.body-index 
+{
+    background: linear-gradient(#141e30, #243b55);
+}
+
+
+/*Drop Down -----------------------------------------------------------------*/
+.user-select 
+{
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 5px;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #03e9f4;
+    outline: none;
+    background: linear-gradient(#141e30, #243b55);
+  }
+
+.user-select option
+{
+    color: #fff;
+    background: #243b55;
+}
+
+
+/*Text Box -----------------------------------------------------------------*/
+.user-textbox 
+{
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 5px;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #03e9f4;
+    outline: none;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+
+/*Text descBox -----------------------------------------------------------------*/
+.user-descBox 
+{
+    width: 100%;
+    max-width: 790px;
+    padding: 10px 5px;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #03e9f4;
+    outline: none;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+
+/*Simple Submit Button -----------------------------------------------------------------*/
+.submit-button {
+    position: relative;
+    display: inline-block;
+    padding: 9px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-left: 15px;
+    /* margin-top: 30px; */
+    letter-spacing: 4px;
+    background: transparent;
+  }
+  
+.submit-button:hover
+{
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/*Texts & Fonts -----------------------------------------------------------------*/
+h3
+{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2em;
+    color: #03e9f4;
+}
+
+label
+{
+    font-family: 'Work Sans', sans-serif;
+    color: #03e9f4;
+    font-size: 1.4em;
+    margin-left: 15px;
+}

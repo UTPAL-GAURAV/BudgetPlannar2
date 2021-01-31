@@ -1,18 +1,22 @@
 <head>
   <link rel="stylesheet" href="add-income.css">
+  <link rel="stylesheet" href="..\..\plugins\commons.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;1,200&display=swap">
 </head>
 
 <div id="idFullComponent">
   <div id="idAddSolo">
     <h3> Add Individual Income</h3>
     <br/><br/>
-    <select style="margin-left: 10%; width: 240px;">
+    <select class="user-select"> <!-- style="margin-left: 10%; width: 240px;"> -->
       <option>Clothes</option>
       <option>Gifts</option>
       <option>Not my money jdjjd</option>
     </select>
-    <input type="text" placeholder="Amount (in Rs.)" size="20">
-    <input type="submit" value="SUBMIT">
+    <input type="text" placeholder="Amount (in Rs.)" size="20" class="user-textbox">
+    <br>
+    <input type="submit" value="SUBMIT" class="submit-button">
   </div>
 
   <br/><br/><br/>
@@ -23,7 +27,8 @@
     <h3>Add & Distribute Income</h3>
     <br/><br/>
     <label>Enter Total Amount: </label> 
-    <input type="text" placeholder="Amount (in Rs.)">
-    <input type="submit" value="SUBMIT">
+    <input type="text" placeholder="Amount (in Rs.)" class="user-textbox">
+    <br>
+    <input type="submit" value="SUBMIT" class="submit-button">
   </div>
 </div>

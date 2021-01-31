@@ -1,14 +1,18 @@
 <head>
     <link rel="stylesheet" href="settings.css">
+    <link rel="stylesheet" href="..\..\plugins\commons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;1,200&display=swap">
 </head>
 
 <div id="idFullComponent">
     <div id="idNewBudget">
       <h3> Add New Budget category</h3>
       <br/><br/>
-      <label>Enter New Budget category: </label>
-      <input type="text" placeholder="New category" width="20">
-      <input type="submit" value="SUBMIT">
+      <label id="idLabel">Enter New Budget category: </label>
+      <input type="text" placeholder="New category" class="user-textbox">
+      <br>
+      <input type="submit" value="SUBMIT" class="submit-button">
     </div>
   
     <br/><br/><br/>
@@ -18,17 +22,18 @@
     <div id="idDistribute">
       <h3> Edit Income Distribution</h3>
       <br/><br/>
-      <label>Total Amount: </label>
-      <input type="text" placeholder="Total Amount (in Rs.)" size="20">
+      <label><b>Total Amount:</b> </label>
+      <input type="text" placeholder="Total Amount (in Rs.)" size="20" class="user-textbox">
+
       <br/><br/><br/>
-      <div style="margin-left: 10%;">
-        <label>Clothes: </label>
-        <input type="text" placeholder="Assign (in Rs.)" size="10">
-        <br/><br/>
-        <label>Gifts: </label>
-        <input type="text" placeholder="Assign (in Rs.)" size="10">
-      </div>
+
+      <label>Clothes: </label>
+      <input type="text" placeholder="Assign (in Rs.)" size="10" class="user-textbox"> 
+      <br/><br/>
+      <label>Gifts: </label>
+      <input type="text" placeholder="Assign (in Rs.)" size="10">
+      
       <br/><br/><br/>
-      <input type="submit" value="SUBMIT">
+      <input type="submit" value="SUBMIT" class="submit-button"> 
     </div>
   </div>

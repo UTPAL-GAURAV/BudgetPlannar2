@@ -4,15 +4,21 @@
 
 <div id="idFullComponent">
     <div id="idEach">
-      <div id="idImg"> <img src="../../assets/tshirt.jpg" style="height: 50px; width: 50px; border-radius: 25%;"> </div>
-      <div>
+      <div id="idImg">
+        <img src="../../assets/tshirt.jpg">
+      </div>
+      <div id="idContent">
         <label id="idLblLeftUp">Clothes</label>
         <label id="idLblRightUp">100</label>
         <br/>
-        <progress value="80" max="100" id="idProgressBar"></progress>
+       <progress value="80" max="100" id="idProgressBar">
+          <div pseudo="-webkit-progress-bar">
+            <div pseudo="-webkit-progress-value"></div>
+          </div>
+       </progress>
         <br/>
         <label id="idLblLeftDown">Expense: 80</label>
         <label id="idLblRightDown">Remaining: 20</label>
       </div>
     </div>
-  </div>
+</div>
